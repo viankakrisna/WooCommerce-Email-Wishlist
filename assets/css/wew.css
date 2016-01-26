@@ -1,0 +1,121 @@
+#wew-open-modal {
+    background-color: #ffd456;
+    display: inline-block;
+    color: #231f20;
+    border-radius: 15px;
+    padding: 5px 20px;
+    line-height: 1.42857143;
+    border: 0;
+    margin: 1em 0;
+    float: left;
+    clear: left;
+    font-weight: bold;
+    border: 0;
+}
+
+#modal-container {
+    font-family: inherit;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 16px 0px;
+    background: none 0% 0% / auto repeat scroll padding-box border-box #231f20;
+    border: 0;
+    max-width: 80%;
+    z-index: 10000;
+}
+
+#modal-close {
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    font-size: 2em;
+    opacity: 1;
+    position: absolute;
+    top: -0.5em;
+    right: -0.5em;
+    transition: 250ms;
+    transform: rotate(0deg);
+}
+
+#modal-close:hover,
+#modal-close:focus,
+#modal-close:active {
+    transform: rotate(360deg);
+}
+
+.wew h1 {
+    color: white;
+    margin: 0px 0px 12.978px;
+}
+
+#wew-form {
+    line-height: 22.652px;
+}
+
+.wew label {
+    color: white;
+}
+
+.wew p {
+    color: white;
+    font-size: 14px;
+}
+
+.wew input {
+    border: 0;
+    padding: 8.652px;
+}
+
+#wew-message {
+    border: 0px;
+    padding: 8.652px 8.652px 8.652px 11.998px;
+    width: 100%;
+}
+
+#wew-submit {
+    color: #231f20;
+    line-height: 14px;
+    padding: 14px 56px;
+    background: #eac251;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wew {
+    padding: 2em 8em;
+    color: white;
+}
+
+.wew h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.wew input {
+    display: block;
+    width: 100%;
+    margin: 0 0 1em;
+    color: #231f20;
+}
+
+.wew textarea {
+    margin: 0 0 1em;
+    color: #231f20;
+}
+
+.wew p {
+    margin: 2em 0 1em;
+}
+
+.wew label {
+    margin-bottom: 1em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.wew [type="submit"] {
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: 1em 4em;
+    display: inline-block;
+    width: auto;
+}
